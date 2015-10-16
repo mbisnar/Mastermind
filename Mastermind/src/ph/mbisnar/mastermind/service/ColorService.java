@@ -1,18 +1,12 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package ph.mbisnar.mastermind.service;
 
-import java.awt.Color;
+import java.util.ArrayList;
 import java.util.List;
+import ph.mbisnar.mastermind.type.PegColor;
 
-/**
- *
- * @author Admin
- */
 public class ColorService {
-    public List<Color> generateColors(){
-        
+	
+    public List<PegColor> generateColors(){
+        return new ArrayList();
     }
 }
